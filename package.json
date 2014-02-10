@@ -1,0 +1,16 @@
+{
+  "name": "official_site_cms",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "keystone": "latest",
+    "underscore": "latest"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "web.js"
+  }
+}
