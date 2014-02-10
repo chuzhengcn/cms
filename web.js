@@ -1,3 +1,5 @@
+require('dotenv').load()
+
 var keystone = require('keystone');
 
 keystone.init({  
@@ -11,12 +13,12 @@ keystone.init({
   'view engine': 'jade',
   
   'auto update': true,
-  'mongo': 'mongodb://localhost/my-project',
+  'mongo': process.env.mongo,
   
   'session': true,
   'auth': true,
   'user model': 'User',
-  'cookie secret': 'feiyesoft1984'
+  'cookie secret': process.env.cookiesecret,
   
 });
  

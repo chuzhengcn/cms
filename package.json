@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "keystone": "latest",
-    "underscore": "latest"
+    "underscore": "latest",
+    "dotenv": "latest"
   },
   "engines": {
     "node": "*",
